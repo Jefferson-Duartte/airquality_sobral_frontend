@@ -1,0 +1,97 @@
+.dicas-conscientizacao {
+  background-color: #8e44ad;
+  color: white;
+  padding: 20px;
+  border-radius: 10px;
+  width: 80%;
+  margin: 0 auto;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  font-family: 'Arial', sans-serif;
+  margin-top: 40px;
+}
+
+.dicas-conscientizacao h2 {
+  font-size: 24px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.dicas-lista {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
+  gap: 20px;
+}
+
+.dica-card {
+  background-color: #fff;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.dica-card:hover {
+  transform: translateY(-5px);
+  background-color: #f4f4f4;
+}
+
+.dica-card h3 {
+  font-size: 18px;
+  color: #8e44ad;
+  margin-bottom: 10px;
+}
+
+.dica-card ul {
+  list-style: none;
+  padding-left: 20px;
+}
+
+.dica-card li {
+  font-size: 14px;
+  color: #555;
+  margin-bottom: 8px;
+}
+
+@media (max-width: 768px) {
+  .dicas-conscientizacao {
+    padding: 15px;
+  }
+
+  .dicas-conscientizacao h2 {
+    font-size: 22px;
+  }
+
+  .dica-card {
+    padding: 12px;
+  }
+
+  .dica-card h3 {
+    font-size: 16px;
+  }
+
+  .dica-card li {
+    font-size: 13px;
+  }
+}
+
+@media (max-width: 480px) {
+  .dicas-conscientizacao {
+    padding: 10px;
+  }
+
+  .dicas-conscientizacao h2 {
+    font-size: 18px;
+  }
+
+  .dica-card {
+    padding: 10px;
+  }
+
+  .dica-card h3 {
+    font-size: 14px;
+  }
+
+  .dica-card li {
+    font-size: 12px;
+  }
+}
